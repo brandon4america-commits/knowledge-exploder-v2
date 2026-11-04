@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Knowledge Exploder: Recursive Knowledge Expansion and Self-Optimizing Graph Engine (Graphiverse v2.6.0)"
+version: 2.6.0
+date-released: 2026-11-04
+authors:
+  - family-names: "Gibbins"
+    given-names: "Brandon Sypherd"
+repository-code: "https://github.com/brandon4america-commits/knowledge-exploder-v2"
