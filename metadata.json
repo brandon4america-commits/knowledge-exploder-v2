@@ -1,0 +1,8 @@
+{
+  "name": "Knowledge Exploder",
+  "description": "An interactive concept-mapping tool that uses Gemini to dynamically expand topics into a visual node graph with explosive physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

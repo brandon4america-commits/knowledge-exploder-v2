@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-omega-bg: #020617;
+  --color-omega-card: rgba(15, 23, 42, 0.6);
+  --color-omega-accent: #0ea5e9;
+  --color-omega-secondary: #8b5cf6;
+}
+
+@layer base {
+  body {
+    @apply bg-omega-bg text-slate-100 font-sans antialiased overflow-hidden;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate-950/85 backdrop-blur-3xl border-2 border-sky-500/40 shadow-[0_0_35px_rgba(14,165,233,0.22)] ring-1 ring-sky-400/20;
+  }
+  
+  .contrast-border {
+    @apply border-2 border-sky-400/50 shadow-[0_0_20px_rgba(14,165,233,0.2)] ring-1 ring-white/10;
+  }
+
+  .contrast-panel {
+    @apply bg-slate-950/90 backdrop-blur-2xl border-2 border-sky-400/60 shadow-[0_0_40px_rgba(14,165,233,0.25)] ring-1 ring-white/20;
+  }
+
+  .neon-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#omega-glow {
+  filter: drop-shadow(0 0 8px rgba(14, 165, 233, 0.4));
+}
+
+.link {
+  transition: stroke 0.3s ease, stroke-width 0.3s ease;
+}
+
+.link:hover {
+  stroke: white !important;
+  stroke-width: 4 !important;
+}
+
+.node-group {
+  transition: opacity 220ms ease;
+}
+
+.link-path {
+  transition: stroke 280ms ease, stroke-width 280ms ease, stroke-opacity 280ms ease;
+}
+
+.continent-hull-group {
+  transition: opacity 280ms ease;
+}
+
+.continent-beacon-group {
+  transition: opacity 280ms ease;
+}
+
+

@@ -1,0 +1,55 @@
+Controlled Source License
+
+Copyright (c) 2026 Brandon Sypherd Gibbins. All rights reserved.
+
+TERMS AND CONDITIONS FOR CONTROLLED SOURCE ACCESS, EVALUATION, AND USE
+
+1. PREAMBLE & OWNERSHIP
+This software and associated documentation files, architecture designs, and digital assets
+(collectively, the "Software") are the sole proprietary and intellectual property of
+Brandon Sypherd Gibbins ("Licensor"). The Software is distributed as controlled source code
+exclusively under the terms of this Controlled Source License ("License").
+
+2. GRANT OF CONTROLLED RIGHTS
+Subject to the terms and limitations outlined herein, Licensor grants to you a personal,
+revocable, non-exclusive, non-transferable, and royalty-free license to:
+(a) Inspect, view, read, and examine the Software source code;
+(b) Compile and execute the Software locally in a non-production environment solely for
+    evaluation, research, educational, or private auditing purposes;
+(c) Propose issues, architectural fixes, or enhancements directly to the Licensor.
+
+3. EXPLICIT RESTRICTIONS & RESERVATION OF RIGHTS
+Except as explicitly authorized in writing by Brandon Sypherd Gibbins, you shall NOT:
+(a) Commercialize: Sell, rent, lease, sublicense, syndicate, monetize, or charge fees for
+    the Software, any hosted version thereof, or any derivative works;
+(b) Production & SaaS: Host, deploy, or operate the Software in production environments,
+    multi-tenant networks, commercial cloud instances, or as a software-as-a-service (SaaS)
+    offering without a separate commercial enterprise license;
+(c) Redistribution: Distribute, broadcast, publish, mirror, or transfer copies of the Software
+    or significant modifications thereof to any third party;
+(d) Forking & Proprietary Sublicensing: Create standalone forks for public or proprietary
+    redistribution without attribution and written consent from the Licensor;
+(e) Alter Notices: Remove, alter, or obscure any copyright notices, license designations,
+    trademarks, or author credits embedded in the Software.
+
+4. DERIVATIVE WORKS & CONTRIBUTIONS
+Any modifications, patches, extensions, or derivative works created by or on behalf of you
+shall remain subject to this License and, unless otherwise agreed in writing, Licensor is
+granted a perpetual, irrevocable, worldwide license to incorporate such contributions into
+the Software.
+
+5. TERMINATION
+This License terminates automatically and immediately without notice if you fail to comply
+with any of its terms or conditions. Upon termination, you must cease all use of the
+Software and securely destroy all copies in your possession.
+
+6. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL BRANDON SYPHERD GIBBINS OR ANY
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES, LOSS OF USE, DATA, REVENUE, OR PROFITS, OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
